@@ -13,7 +13,7 @@ totalstart = time.time()
 
 Config_file = ConfigParser()
 
-Config_file.read("DavtoMp4-config.conf")
+Config_file.read("Dav_to_MP4/DavtoMp4-config.conf")
 
 DAV_INPUT = Config_file.get("DAVtoMP4","dav_inputpath")
 MP4_OUTPUT = Config_file.get("DAVtoMP4","mp4_outputpath")
