@@ -35,8 +35,8 @@ if __name__ == "__main__":
         output_folder = os.path.join(JPEG_OUTPUT, os.path.splitext(DAVinput)[0])
 
         # Check if the output folder already exists, if not, create it
-        #if not os.path.exists(output_folder):
-            #os.makedirs(output_folder)
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
 
         JPEGoutput = os.path.join(output_folder, f"frame_%03d.jpeg")
 
