@@ -7,7 +7,7 @@ totalstart = time.time()
 
 Config_file = ConfigParser()
 
-Config_file.read("DavtoJPEG-config.conf")
+Config_file.read("Dav_To_JPEG/DavtoJPEG-config.conf")
 
 DAV_INPUT = Config_file.get("DAVtoJPEG", "dav_inputpath")
 JPEG_OUTPUT = Config_file.get("DAVtoJPEG", "jpeg_outputpath")
